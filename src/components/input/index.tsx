@@ -1,9 +1,5 @@
 import type { RegisterOptions, UseFormRegister } from "react-hook-form";
 
-interface FormData {
-  [key: string]: string;
-}
-
 interface InputProps {
   type: string;
   placeholder: string;

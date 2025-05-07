@@ -42,6 +42,7 @@ export function Login() {
   function onSubmit(data: FormData) {
     signInWithEmailAndPassword(auth, data.email, data.password)
       .then((user) => {
+        console.log(user);
         toast.success("Bem vindo(a) de volta ao WebCarros!");
         navigate("/dashboard", { replace: true });
       })
