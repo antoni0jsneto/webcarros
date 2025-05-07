@@ -1,9 +1,8 @@
 import { useEffect, useState } from "react";
-// ImageSlider.tsx ou outro nome
 import { Swiper, SwiperSlide } from "swiper/react";
-import "swiper/css"; // Importa os estilos básicos
-import "swiper/css/navigation"; // Se for usar setas de navegação
-import "swiper/css/pagination"; // Se for usar paginação
+import "swiper/css";
+import "swiper/css/navigation";
+import "swiper/css/pagination";
 
 import { Navigation, Pagination, Autoplay } from "swiper/modules";
 import type { ImagesCarProps } from "../../pages/car";
